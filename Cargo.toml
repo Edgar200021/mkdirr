@@ -1,0 +1,16 @@
+[package]
+name = "mkdirr"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = "4.5.40"
+
+[dev-dependencies]
+pretty_assertions = "1.4.1"
+anyhow = "1.0.98"
+assert_cmd = "2.0.17"
+predicates = "3.1.3"
+rand = "0.9.1"
+regex = "1.11.1"
+tempfile = "3.20.0"
